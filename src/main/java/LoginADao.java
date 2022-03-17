@@ -8,7 +8,7 @@ import java.sql.SQLException;
 public class LoginADao {
 	
 	String sql="select * from login where uname=? and pass=?;";
-	String url="jdbc:mysql://localhost:3306/world";
+	String url="jdbc:mysql://localhost:3306/cc";
 	String username ="root";
 	String password="12345678";
 	public boolean check(String uname,String pass) {
